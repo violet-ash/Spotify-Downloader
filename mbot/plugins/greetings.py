@@ -32,15 +32,14 @@ from os import execvp,sys
 async def start(client,message):
     reply_markup = [[
         InlineKeyboardButton(
-            text="Bot Channel", url="https://t.me/Spotify_downloa"),
+            text="Bot Channel", url="https://t.me/Music_Downloader_Bot_Spotify1"),
         InlineKeyboardButton(
-            text="Repo",
-            url="https://github.com/Masterolic/Spotify-Downloader/"),
+            text="Repo", url="https://github.com/Masterolic/Spotify-Downloader/"),
         InlineKeyboardButton(text="Help",callback_data="helphome")
         ],
         [
             InlineKeyboardButton(text="Donate",
-            url="https://www.buymeacoffee.com/Masterolic"),
+            url="https://www.buymeacoffee.com/violetash"),
         ]]
     if LOG_GROUP:
 
@@ -71,10 +70,11 @@ async def ping(client,message):
 HELP = {
     "Youtube": "Send **Youtube** Link in Chat to Download Song.",
     "Spotify": "Send **Spotify** Track/Playlist/Album/Show/Episode's Link. I'll Download It For You.",
-    "Deezer": "Send Deezer Playlist/Album/Track Link. I'll Download It For You.",
-    "Jiosaavn": "Not Implemented yet",
-    "SoundCloud": "Not Implemented yet",
-    "Group": "Will add later."
+    "Deezer": "Send **Deezer** Playlist/Album/Track Link. I'll Download It For You."
+    #,
+    #"Jiosaavn": "Not Implemented yet",
+    #"SoundCloud": "Not Implemented yet",
+    #"Group": "Will add later."
 }
 
 
