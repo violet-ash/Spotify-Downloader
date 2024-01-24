@@ -561,9 +561,9 @@ async def spotify_dl(Mbot,message: Message):
         except:
             pass
         try:
-            await message.reply_text(f"Done✅",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Feedback", callback_data="feed")]]))
-            await message.reply_text(f"Check out @spotify_downloa (music)  @spotifynewss(News)")
+           # await message.reply_text(f"Done✅",   
+         #   reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Feedback", callback_data="feed")]]))
+         #   await message.reply_text(f"Check out @spotify_downloa (music)  @spotifynewss(News)")
             await m.delete()
         except:
             pass 
